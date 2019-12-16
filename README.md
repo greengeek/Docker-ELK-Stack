@@ -25,9 +25,11 @@ data03
  
  
 Adjust the Virtual Memory for Docker
+
 sudo sysctl -w vm.max_map_count=262144
  
 Generate Certificates for Elasticsearch
+
 docker-compose -f create-certs.yml run --rm create_certs
  
 Create passwords
@@ -60,7 +62,9 @@ docker-compose up
 Wait a minute or two and you should be able to access kibana at https:\\server-ip
  
 Login with the elastic user and the password generated from earlier.
+
 Additional Notes
+
 docker-compose can be ran in the background using the -d switch, such as:
  
 docker-compose up -d
