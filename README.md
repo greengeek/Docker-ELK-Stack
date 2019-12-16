@@ -1,5 +1,5 @@
 # Docker-Stack
-Files for running Elastic (ELK) withdocker-compose on Ubuntu
+Files for running Elastic (ELK) with docker-compose on Ubuntu
 
 
 ## Elastic and Kibana on Docker
