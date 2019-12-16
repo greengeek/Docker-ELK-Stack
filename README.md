@@ -60,7 +60,8 @@ This will generate all the passwords.  Make sure to make a copy of these.
 Remove the Line comments that were added in the previous section for Kibana.
 Change the password for ELASTICSEARCH_PASSWORD:  with the one generated from the previous section for the Kibana user.
  
-###Starting ELK
+### Starting ELK
+
 Shutdown the previous Docker ELK session by typing:
 
 ```
