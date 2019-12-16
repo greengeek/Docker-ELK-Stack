@@ -89,3 +89,5 @@ docker-compose can be ran in the background using the -d switch, such as:
 ```
 docker-compose up -d
 ```
+
+Docker version can be changed by editing the VERSION variable in the .env file. 
