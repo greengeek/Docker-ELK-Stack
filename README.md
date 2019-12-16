@@ -73,8 +73,12 @@ Start a new docker session by typing:
 docker-compose up
 ```
 
-Wait a minute or two and you should be able to access kibana at https:\\server-ip
- 
+Wait a minute or two and you should be able to access kibana at 
+
+```
+https:\\server-ip\
+```
+
 Login with the elastic user and the password generated from earlier.
 
 ### Additional Notes
