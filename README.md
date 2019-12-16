@@ -2,33 +2,35 @@
 Files for running Elastic (ELK) withdocker-compose on Ubuntu
 
 
-Elastic and Kibana on Docker
+## Elastic and Kibana on Docker
 
-Required Files
-instances.yml
-.env
-create-certs.yml
-docker-compose.yml
-  
+### Required Files
+
 Create a folder called elk and copy the following files into it:
 
+```
 instances.yml
 .env
 create-certs.yml
 docker-compose.yml
+```
 
 Inside the elk folder create the following folders:
+
+```
 certs
 data01
 data02
 data03
+``` 
  
- 
-Adjust the Virtual Memory for Docker
+### Adjust the Virtual Memory for Docker
 
+```
 sudo sysctl -w vm.max_map_count=262144
- 
-Generate Certificates for Elasticsearch
+```
+
+### Generate Certificates for Elasticsearch
 
 docker-compose -f create-certs.yml run --rm create_certs
  
