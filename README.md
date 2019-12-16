@@ -3,17 +3,20 @@ Files for running Elastic (ELK) withdocker-compose on Ubuntu
 
 
 Elastic and Kibana on Docker
-Last edited: Just now
+
 Required Files
 instances.yml
 .env
 create-certs.yml
 docker-compose.yml
- 
-Files can be found on my github, https://github.com/greengeek/Docker-ELK-Stack.git
- 
-Create a folder called elk and copy all the files into it.   This can be done using the git clone command.
- 
+  
+Create a folder called elk and copy the following files into it:
+
+instances.yml
+.env
+create-certs.yml
+docker-compose.yml
+
 Inside the elk folder create the following folders:
 certs
 data01
